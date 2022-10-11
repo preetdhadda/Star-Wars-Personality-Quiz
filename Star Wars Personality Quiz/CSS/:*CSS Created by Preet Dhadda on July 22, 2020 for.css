@@ -1,0 +1,166 @@
+/* CSS Created by Preet Dhadda on July 22, 2020 for My_Star_Wars_Character.html */
+
+body {
+	background-image: url("../Images/galaxy_background.jpg");
+}
+	/* image retrieved from https://wallpapersafari.com/w/T3xqnS */
+
+header {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 38px;
+	color: #ffff00;
+	width: 600px;
+	margin-left: 30%;
+	margin-top: 1%;
+	text-align: center;
+}
+
+/* Question and answers */
+#question {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	color: white;
+	width: 600px;
+	margin-top: 12%;
+	margin-left: 30%;
+	text-align: center;
+}
+
+#answers {
+	width: 450px;
+	display: flex;
+	flex-direction: column;
+	margin-left: 35%;
+	justify-content: center;
+}
+
+#buttonA {
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	font-size: 20px;
+	background-color: #ccffff;
+	border-radius: 10px;
+	width: 450px;
+	text-align: left;
+	padding: 5px 10px;
+	margin-bottom: 3%;
+	cursor: pointer;
+}
+
+#buttonB {
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	font-size: 20px;
+	background-color: #ccffff;
+	border-radius: 10px;
+	width: 450px;
+	text-align: left;
+	padding: 5px 10px;
+	margin-bottom: 3%;
+	cursor: pointer;
+}
+
+#buttonC {
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	font-size: 20px;
+	background-color: #ccffff;
+	border-radius: 10px;
+	width: 450px;
+	text-align: left;
+	padding: 5px 10px;
+	margin-bottom: 3%;
+	cursor: pointer;
+}
+
+#buttonD {
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	font-size: 20px;
+	background-color: #ccffff;
+	border-radius: 10px;
+	width: 450px;
+	text-align: left;
+	padding: 5px 10px;
+	margin-bottom: 3%;
+	cursor: pointer;
+}
+
+#buttonE {
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	font-size: 20px;
+	background-color: #ccffff;
+	border-radius: 10px;
+	width: 450px;
+	text-align: left;
+	padding: 5px 10px;
+	margin-bottom: 3%;
+	cursor: pointer;
+}
+
+/* Quiz results */
+#results {
+	visibility: hidden;
+}
+
+#ResultsPicture {
+	margin-left: 32.5%;
+	margin-top: -25%;
+}
+
+#ResultsWriteup {
+	font-family: Optima, sans-serif;
+	font-size: 20px;
+	color: #e6e6e6;
+	width: 500px;
+	margin-left: 33%;
+	margin-top: 2%;
+	text-align: center;
+	background-color: black;
+}
+
+/* Border images */
+#redlightsaber {
+	position: absolute;
+	left: 30%;
+	top: 0%;
+}
+
+#bluelightsaber {
+	position: absolute;
+	left: 50%;
+	top: 0%;
+}
+
+#lukeskywalker {
+	position: absolute;
+	left: 9%;
+	top: 0%;
+}
+
+#bobafett {
+	position: absolute;
+	top: 25%;
+	left: 2%;
+}
+
+#darthvader {
+	position: absolute;
+	left: 71%;
+	top: 40.5%;
+	z-index: 2;
+}
+
+#yoda {
+	position: absolute;
+	left: 81%;
+	top: 2%;
+	z-index: 1;
+}
+
+#hansolo {
+	position: absolute;
+	left: 66%;
+	top: 5%;
+}

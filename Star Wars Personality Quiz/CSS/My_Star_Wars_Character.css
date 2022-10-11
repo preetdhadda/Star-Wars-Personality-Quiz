@@ -1,0 +1,265 @@
+/* CSS Created by Preet Dhadda on July 22, 2020 for My_Star_Wars_Character.html */
+
+body {
+	background-image: url("../Images/galaxy_background.jpg");
+}
+	/* image retrieved from https://wallpapersafari.com/w/T3xqnS */
+	
+@media (max-width: 480px) { 
+	/* I purposely hid the border images when viewing on a mobile device to avoid spacing issues. */
+	/* I am aware that there is empty space without content allowing for a horizontal scroll bar when viewing on mobile. I played around with numerous suggestions found online including "overflow-x", ensuring all of my inner divs don't exceed their outer divs, changing the max-width of my screen, etc. and nothing worked for me. */
+	/* Instead, I re-positioned my buttons and text elements to be centered within the mobile device width when first accessing the website on mobile, so that none of the important content falls over to the right and requires the horizontal scroll in order to view it. */
+	body {
+		width: 100%;
+	}
+	header {
+		position: absolute;
+		top: 5%;
+		left: -23%;
+	}
+	#darthvader {
+		visibility: hidden;
+	}
+	#lukeskywalker {
+		visibility: hidden;
+	}
+	#bobafett { 
+		visibility: hidden;
+	}
+	#yoda {
+		visibility: hidden;
+	}
+	#hansolo { 
+		visibility: hidden;
+	}
+	#redlightsaber {
+		margin-top: 18%;
+		margin-left: -45%;
+	}
+	#bluelightsaber {
+		margin-top: 18%;
+		margin-left: 0%;
+	}
+	#TakeQuiz {
+		position: absolute;
+		top: 45%;
+		left: -25%;
+	}
+	#question {
+		position: absolute;
+		top: 40%;
+		left: -20%;
+	}
+	#answers {
+		position: absolute;
+		top: 45%;
+		left: -35%;
+	}
+	#ResultsPicture {
+		position: absolute;
+		top: 48%;
+		left: -35%;
+	}
+	#ResultsWriteup {
+		position: absolute;
+		top: 70%;
+		left: -33%;
+	}
+	#redo {
+		position: absolute;
+		top: 98%;
+	}
+}
+
+header {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 2.4em;
+	color: #ffff00;
+	max-width: 16em;
+	margin-left: 29.25%;
+	margin-top: 1%;
+	text-align: center;
+}
+
+#TakeQuiz {
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	font-size: 2em;
+	background-color: #ccffff;
+	border-radius: 0.5em;
+	width: 10em;
+	text-align: center;
+	padding: 0.25em 1em;
+	margin-left: 40%;
+	margin-top: 20%;
+	cursor: pointer;
+}
+
+/* Question and answers */
+#QuestionAndAnswer {
+	visibility: hidden;
+}
+
+#question {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2.3em;
+	color: white;
+	max-width: 16em;
+	margin-top: -15%;
+	margin-left: 30%;
+	text-align: center;
+}
+
+#answers {
+	max-width: 11em;
+	padding: 0.25em;
+	display: flex;
+	flex-direction: column;
+	margin-left: 35%;
+	justify-content: center;
+}
+
+#buttonA {
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	font-size: 1.25em;
+	background-color: #ccffff;
+	border-radius: 0.5em;
+	width: 22.5em;
+	text-align: left;
+	padding: 0.3em 0.5em;
+	margin-bottom: 0.75em;
+	cursor: pointer;
+}
+
+#buttonB {
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	font-size: 1.25em;
+	background-color: #ccffff;
+	border-radius: 0.5em;
+	width: 22.5em;
+	text-align: left;
+	padding: 0.3em 0.5em;
+	margin-bottom: 0.75em;
+	cursor: pointer;
+}
+
+#buttonC {
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	font-size: 1.25em;
+	background-color: #ccffff;
+	border-radius: 0.5em;
+	width: 22.5em;
+	text-align: left;
+	padding: 0.3em 0.5em;
+	margin-bottom: 0.75em;
+	cursor: pointer;
+}
+
+#buttonD {
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	font-size: 1.25em;
+	background-color: #ccffff;
+	border-radius: 0.5em;
+	width: 22.5em;
+	text-align: left;
+	padding: 0.3em 0.5em;
+	margin-bottom: 0.75em;
+	cursor: pointer;
+}
+
+#buttonE {
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	font-size: 1.25em;
+	background-color: #ccffff;
+	border-radius: 0.5em;
+	width: 22.5em;
+	text-align: left;
+	padding: 0.3em 0.5em;
+	margin-bottom: 0.75em;
+	cursor: pointer;
+}
+
+/* Quiz results */
+#results {
+	visibility: hidden;
+}
+
+#ResultsPicture {
+	margin-left: 32.5%;
+	margin-top: -30%;
+}
+
+#ResultsWriteup {
+	font-family: Optima, sans-serif;
+	font-size: 1.25em;
+	color: #e6e6e6;
+	width: 22em;
+	margin-left: 35%;
+	margin-top: 2%;
+	text-align: center;
+	background-color: black;
+}
+
+#RedoQuiz {
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	font-size: 1em;
+	background-color: #ccffff;
+	border-radius: 0.5em;
+	width: 15em;
+	text-align: center;
+	padding: 0.25em 1em;
+	margin-left: 42%;
+	margin-top: 3%;
+	cursor: pointer;
+}
+
+/* Border images*/
+#redlightsaber {
+	position: absolute;
+	left: 30%;
+	top: 0%;
+}
+
+#bluelightsaber {
+	position: absolute;
+	left: 50%;
+	top: 0%;
+}
+
+#lukeskywalker {
+	position: absolute;
+	left: 9%;
+	top: 0%;
+}
+
+#bobafett {
+	position: absolute;
+	top: 25%;
+	left: 2%;
+}
+
+#darthvader {
+	position: absolute;
+	left: 71%;
+	top: 40.5%;
+	z-index: 2;
+}
+
+#yoda {
+	position: absolute;
+	left: 81%;
+	top: 2%;
+	z-index: 1;
+}
+
+#hansolo {
+	position: absolute;
+	left: 66%;
+	top: 5%;
+}
